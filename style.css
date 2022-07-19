@@ -66,3 +66,119 @@
     font-size: 1.5em;
     margin-right: .5rem;
 }
+
+/* blog-news-section-css */
+
+.news-section{
+    margin-left: 4rem;
+    background-color: #0b073b;
+    margin-right: 1rem;
+    width: 312px;
+    height: 318px;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+.news-section ul{
+    margin-top: 4rem;
+}
+.news-section ul li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.news-section ul li a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+.news-lins{
+    padding-left: 20px;
+    padding: 20px;
+}
+
+.newses-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.news-blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 6rem;
+}
+
+.blog-item{
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.blog-info p{
+    margin-top: .7rem;
+    border: 1px solid #161616;
+    display: inline-block;
+    border-radius: 5px;
+}
+.blog-info h3{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-bottom: .7rem;
+}
+.blog-info span{
+    color: #767676;
+    margin-right: 2rem;
+}
+
+/* footer-css */
+
+footer{
+    background-color: #161616;
+    width: 94rem;
+    height: 444px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title h2{
+       color: white;
+       font-size: 40px;
+       font-weight: 600;
+       text-align: center;
+       margin-bottom: 4rem;
+}
+.footer-nav{}
+.footer-nav ul{
+
+}
+.footer-nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin-left: 3rem;
+     margin-top: 4rem;
+}
+.footer-nav ul li a{
+     text-decoration: none;
+     color: #B9B9B9;
+     font-size: 20px;
+}
+.socil-nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.socil-nav ul li a {
+    text-decoration: none;
+    color: #ea2626;
+    font-size: 20px;
+    background-color: #B9B9B9;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
