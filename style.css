@@ -100,9 +100,8 @@ main{
   
 }
 
-.news-lins{
-    padding-left: 20px;
-    padding: 20px;
+.news-lins a{
+ padding: 20px 30px;
 }
 
 .newses-blogs{
@@ -140,6 +139,30 @@ main{
     margin-right: 2rem;
     margin-left: .7rem;
 }
+
+/* view-more */
+
+.viwe-all{
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   visibility: hidden;
+   margin-left: 12rem;
+}
+.viwe-all h3{
+    text-align: center;
+    display: inline;
+    background-color: #c0392b;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.viwe-all h3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
 
 /* footer-css */
 

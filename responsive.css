@@ -41,10 +41,8 @@
         margin-top: 1rem;
    
    }
-    .news-section ul li a{
-        border: 1px solid black;
-        padding: 10px 20px;
-        border-radius: 5px;
+    .news-section ul li.news-lins a{
+          padding: 10px 20px;
 
     }
     .news-section ul li{
@@ -52,6 +50,9 @@
         display: inline;
         font-size: 30px;
         font-weight: 600;
+        border: 1px solid black;
+        padding: 10px 20px;
+        border-radius: 5px;
 
     }
 
@@ -64,12 +65,40 @@
         display: inline;
         text-align: center;
     }
-    .garmany-img{
-        width: 120px;
-        height: 80px;
+    .hedden-item{
+        display: none;
     }
+   .viwe-all{
+    visibility: visible;
+   }
+   .flag-blog{
+    grid-template-columns: repeat(2,1fr);
+    margin-left: -2rem;
+   }
+   .news-blo{
+    margin-left: 23rem;
+}
+}
 
-    .blog-info{
 
+@media screen and (max-width:500px){
+    .news-blog{
+        grid-template-columns: repeat(1,1fr);
     }
+    .news-blogses{
+        margin-left: -4rem;
+     }
+
+     .news-section{
+        margin-left: 12rem;
+ 
+   }
+   .viwe-all{
+    margin-left: 15rem;
+   }
+   .socil-nav{
+    visibility: visible;
+   }
+
+
 }
