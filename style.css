@@ -114,24 +114,6 @@ main{
     grid-template-columns: repeat(3,1fr);
     margin-right: 2rem;
 }
-.country-flag{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items:center; 
-    padding: 30px 18px;
-    /* height: 200px;
-    width: 280px; */
-}
-.flag-blog {
-    margin-left: 4rem;
-}
-.country-info h3{
-   margin-top: -2rem;
-}
-.country-info p{
-    margin-bottom: 1rem;
-}
 .blog-item{
     margin-left: 1rem;
     margin-top: 3rem;
