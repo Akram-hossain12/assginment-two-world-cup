@@ -19,12 +19,11 @@
 .head-section{
     background-image: url(./world-cup-img/original.jpg);
    background-repeat: no-repeat;
+   border-radius: 30px;
    margin-top: 3rem;
    margin-bottom: 3rem;
-   margin-right: 5rem;
-   margin-left: 5rem;
-   border-radius: 30px;
-   width: 82rem;
+   margin-left: 4.3rem;
+   width: 87rem;
    height: 40rem;
 }
 .header-info{
@@ -73,7 +72,7 @@ main{
     width: 1200px;
 }
 .news-section{
-     margin-left: 6rem;
+    margin-left: 6rem;
     background-color: #0b073b;
     width: 312px;
     height: 318px;

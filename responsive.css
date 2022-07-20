@@ -2,7 +2,7 @@
 
     .head-section{
         margin-bottom: 1rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
         margin-right: 0;
     }
     .newses-blogs{
@@ -20,7 +20,7 @@
         display: flex;
         justify-content: end;
         align-items: center;
-        margin-left: 15rem;
+        /* margin-left: 15rem; */
      }
     .blog-item{
         width: 450px;
@@ -59,7 +59,7 @@
     }
 
     .news-section{
-         width: 100%;
+         /* width: 100%; */
          height: auto;
          background-color: white;
    }
@@ -84,24 +84,92 @@
 }
 
 
-@media screen and (max-width:500px){
-    .news-blog{
+@media screen and (max-width:576px){
+    .head-section{
+        width: 400px;
+        height:587px;
+    }
+    .header-info{
         grid-template-columns: repeat(1,1fr);
     }
-    .news-blogses{
-        margin-left: -4rem;
+    .header-title{
+        margin-left: 1rem;
+    }
+    .header-title h1{
+        margin-top: .4rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .header-title p{    
+   display: none;
+     }
+     .header-img img{
+        margin-top: .7rem;
+        margin-left: .3rem;
+     }
+     .btn-primary{
+        padding: 7px 15px;
+        margin-left: 7.3rem;
+     }
+     .btn-info a{
+        font-size: .9rem;
+ 
      }
 
-     .news-section{
-        margin-left: 12rem;
- 
-   }
-   .viwe-all{
-    margin-left: 15rem;
-   }
-   .socil-nav{
-    visibility: visible;
+     /* blog-news-section-css */
+
+     main{
+        width: 400px;
+    }
+     .newses-blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .news-blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-right: 1rem;
+    }
+    .news-section{
+       margin-left: 5rem;
+       margin-top: .01rem;
    }
 
+   .news-section ul li{
+    display: block;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+.news-lins a{
+    padding: 0 ;
+   }
+   .blog-item{
+    margin-top: 1rem;
+}
+.viwe-all{
+    margin-top: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility:visible;
+    margin-left: 3rem;
+ }
 
+ footer{
+    margin-top: 2.5rem;
+    width: 565px;
+    height:444px;
+}
+.footer-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 }
