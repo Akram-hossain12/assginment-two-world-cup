@@ -2,6 +2,8 @@
 
     .head-section{
         margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 0;
     }
     .newses-blogs{
         display: grid;
@@ -77,7 +79,8 @@
    }
    .news-blo{
     margin-left: 23rem;
-}
+   }
+
 }
 
 
