@@ -68,11 +68,12 @@
 }
 
 /* blog-news-section-css */
-
+main{
+    width: 1200px;
+}
 .news-section{
-    margin-left: 4rem;
+     margin-left: 6rem;
     background-color: #0b073b;
-    margin-right: 1rem;
     width: 312px;
     height: 318px;
     border-radius: 20px;
@@ -111,16 +112,19 @@
 .news-blog{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-right: 6rem;
+    margin-right: 2rem;
 }
 .country-flag{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
+    align-items:center; 
+    padding: 30px 18px;
     /* height: 200px;
     width: 280px; */
+}
+.flag-blog {
+    margin-left: 4rem;
 }
 .country-info h3{
    margin-top: -2rem;
@@ -129,7 +133,7 @@
     margin-bottom: 1rem;
 }
 .blog-item{
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 3rem;
     border: 1px solid #8a8a8a;
     border-radius: 10px;
@@ -159,7 +163,7 @@
 
 footer{
     background-color: #161616;
-    width: 94rem;
+    width:1600px;
     height: 444px;
     margin-top: 5rem;
     display: flex;
