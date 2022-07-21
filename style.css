@@ -53,6 +53,9 @@
     margin-left: 4rem;
     margin-top: 7.2rem;
 }
+.img-banner{
+    display: none;
+}
 .btn-primary{
     display: inline;
     background-color: #c0392b;
@@ -81,6 +84,7 @@ main{
 }
 .news-section ul{
     margin-top: 4rem;
+
 }
 .news-section ul li{
     list-style: none;
